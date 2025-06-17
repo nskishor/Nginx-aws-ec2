@@ -52,8 +52,6 @@ Jenkinsfile – Jenkins pipeline definition
 
 index.html – The web page deployed to the EC2 instance
 
-cloudwatch-alarm.tf – Alarm configuration for monitoring
-
 README.md – This file
 
 **HOW IT'S Working**
