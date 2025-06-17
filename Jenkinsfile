@@ -14,7 +14,7 @@ pipeline {
     stage('Deploy') {
       steps {
         sh '''
-        ssh -o StrictHostKeyChecking=no ubuntu@65.2.38.133 << EOF
+        ssh -o StrictHostKeyChecking=no ubuntu@13.235.58.23<< EOF
           echo "<html><body><h1>Deployed via Jenkins</h1></body></html>" > /var/www/html/index.html
         EOF
         '''
